@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("This line is added to check whether the changes are being saved or not")
+st.title(":blue[This line is added to check whether the changes are being saved or not]")
 st.title("📄 Document question answering")
 st.write(
     "Upload a document below and ask a question about it – GPT will answer! "
