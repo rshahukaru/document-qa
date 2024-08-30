@@ -3,6 +3,9 @@ from openai import OpenAI
 
 # Show title and description.
 st.write("This line is added to :blue[check] whether the changes are being saved or not")
+
+st.write("Revanth Shahukaru (SUID: 226494782)")
+
 st.title("📄 Document question answering")
 st.write(
     "Upload a document below and ask a question about it – GPT will answer! "
@@ -45,7 +48,7 @@ else:
 
         # Generate an answer using the OpenAI API.
         stream = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model="gpt-4o-mini",
             messages=messages,
             stream=True,
         )
